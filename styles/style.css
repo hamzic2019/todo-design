@@ -1,0 +1,60 @@
+*, *::after, *::before {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.sidebar {
+    height: 100vh;
+    width: 20%;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    
+}
+
+.sidebar h1 {
+    color:lightgray;
+    font-size: 20px;
+    margin:5%;
+}
+
+.user-interface {
+    /* background-color:yellow; */
+    height: 35px;
+    margin:5% 5% 1% 5%;
+    
+}
+
+.user-photo {
+    height: 100%;
+    border-radius: 100%;
+    float: left;
+}
+
+.user-interface > p {
+    float: left;
+    margin:2%;
+    font-size:22.5px;
+    color:gray;
+}
+
+.user-interface>.search-icon {
+    height: 70%;
+    float: right;
+    margin: 2%;
+    color:gray;
+}
+
+.main {
+    height: 100vh;
+    width: 80%;
+    background-color: rgb(26, 212, 42);
+    float: left;
+}
+
+hr {
+    border:1px solid lightgray;
+    border-top:0px;
+}
