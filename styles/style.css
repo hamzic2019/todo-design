@@ -133,6 +133,25 @@ hr {
 
 .header {
     width: 100%;
-    height: 100px;;
+    height: 250px;;
     background-image: url('/assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    bottom:60px;
+    left:25px;
+    font-size:100px;
+    color:white;
+}
+
+.date {
+    position: absolute;
+    bottom:15px;
+    left:28px;
+    font-size:30px;
+    color:white;
 }
