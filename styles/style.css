@@ -63,14 +63,55 @@ hr {
 
 .item {
     width: 100%;
-    height: 50px;
-    /* background-color: red; */
+    height: 60px;
+    background-color: rgb(236, 236, 236);
     display:flex;
     align-items: center;
     justify-content: left;
     padding:0px 10px 0px 10px;
     position:relative;
+    border-left:5px solid #477FF2;
 }
+
+.item-other {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0px 10px 0px 10px;
+    position: relative;
+    border-left: 2.5px solid #477FF2;
+    padding-left:14px;
+}
+
+.item-other-snd {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0px 10px 0px 10px;
+    position: relative;
+    border-left: 2.5px solid #477FF2;
+    padding-left: 14px;
+}
+
+.item-other-add {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0px 10px 0px 10px;
+    position: relative;
+    padding-left: 14px;
+    color:#477FF2;
+}
+
 
 .ikona-sunca {
     float: left;
@@ -80,9 +121,18 @@ hr {
 
 .task-name {
     margin-left:10px;
+    color:rgb(94, 94, 94);
 }
 
 .task-number {
     position:absolute;
-    right:10px;
+    right:25px;
+    color:black;
+}
+
+
+.header {
+    width: 100%;
+    height: 100px;;
+    background-image: url('/assets/background.jpg');
 }
