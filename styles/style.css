@@ -84,3 +84,63 @@ h2 {
     justify-self: centert
     flex-grow:0;
 }
+
+
+
+/* Adding css for mobile*/
+
+@media screen and (max-width: 850px) {
+    body {
+        background-color: #35325D;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    h1 {
+        margin: 70px auto 30px auto;
+        width: 50%;
+        /* background-color: red; */
+    }
+
+    h2 {
+        font-size: 30px;
+        margin: 50px auto 20px auto;
+        width: 50%;
+    }
+
+    #search {
+        width: 85%;
+        height: 50px;
+        margin: 0 auto 20px auto;
+        padding: 5px 25px;
+        font-size: 20px;
+        background-color: #2e2b53;
+        border-width: 0.5px;
+        border-color: #484381;
+        color: white;
+    }
+
+    #add {
+        width: 85%;
+        height: 50px;
+        margin: 0 auto 20px auto;
+        padding: 5px 25px;
+        font-size: 20px;
+        background-color: #2e2b53;
+        border-width: 0.5px;
+        border-color: #484381;
+        color: white;
+    }
+
+    .tasks {
+        background-color: aquamarine;
+        width: 85%;
+        /* height: 300px; */
+        margin: 0 auto
+    }
+
+
+}
