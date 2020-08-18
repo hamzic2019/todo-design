@@ -27,9 +27,11 @@ search.addEventListener('keyup', (e) => {
 })
 
 function addNewTodo(value) {
-    todos.push({task: value, id: id});
-    id++
-    updateDisplay();
+    if(value.length > 0) {
+        todos.push({task: value, id: id});
+        id++
+        updateDisplay();
+    }
 }
 
 function updateDisplay(term) {
